@@ -1,0 +1,168 @@
+body { 
+    margin: 0; 
+    font-family: 'Arial', sans-serif;
+    background-image: linear-gradient(to right, #BF0412, #062A54);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+} 
+
+/*menu do site */
+#cabecalho{
+    width: 100%;
+    align-items: center;
+    display: flex;
+}
+#menu{
+    display: flex;
+    border: white;
+    width: 100%;
+    padding: 30px;
+    justify-content: center;
+    align-items: center;
+    height: 5%;
+
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(4px);
+}
+
+#menu ul{
+     list-style: none;   
+}
+
+#menu ul li{
+    list-style: none;
+    display: inline-block;
+    line-height: 50px;
+}
+
+#menu ul li a{
+    text-decoration: none;
+    padding: 60px 60px;
+    color: white;
+    animation-delay: 1ms;
+}
+
+#menu ul li a:hover{
+    color: white;
+    font-weight: bold;
+    background: rgba(255, 255, 255, 0.1);
+    transition-delay: 1ms;
+}
+
+/* meio do site*/
+
+#main {
+
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+}
+#main p{
+    font-size: 20px;
+}
+img{
+    height: 350px;
+    width: 350px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    column-count: 3;
+    margin-top: 0%;
+    
+}
+p{ 
+    text-align: center;
+    font-size: 18px;
+}
+#main ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+legend{
+   font-size: 19px;
+}
+
+#galeria_produtos img{
+    column-count: 4;
+    column-gap: 10px;
+    margin-top: 0%;
+    
+}
+
+#texto_link{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 23px;
+    font-weight: bold;
+    font-style:italic;
+}
+
+#texto_link h3 a{
+    color: red;
+
+}
+#texto_link .link:hover{
+color:blue;
+}
+
+/*Rodapé*/
+#rodape{
+    border: 3px solid white;
+    color: white;
+    /*width: 100%;*/
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.085);
+    backdrop-filter: blur(20px);
+}
+.footer-link{
+    text-decoration: none;
+}
+#footer_content{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 4px;
+}
+
+#footer_socialmidia{
+   display:flex;
+   gap: 2rem;
+}
+#footer_socialmidia .footer-link{
+    display: flex;
+   align-items: center;
+   justify-content: center;
+    height: 2.5rem;
+    width: 2.5rem;
+    color:white;
+    border-radius: 50%;
+}
+#instagram{
+    background:linear-gradient(#7f37c9, #ff2992, #ff9807) ;
+}
+#youtube {
+    background-color: red;
+
+}
+#whatsaap{
+    background-color: #25d366;
+}
+#footer_socialmidia .footer-link i{
+    font-size: 25px;
+}
+#footer_socialmidia .footer-link:hover{
+    opacity: 0.8;
+}
+.map{
+    list-style: none;
+}
+.localizacao{
+    font-size: 17px;
+}
+#footer_copyright{
+    display: flex;
+    justify-content: center;
+    font-size: 0.9rem;
+    }
+    
